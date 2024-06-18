@@ -31,7 +31,7 @@ app.frame('/', async c => {
       <Box grow alignVertical="center" background-image="custome" padding="32" border={BORDER_SIMPLE}>
         <VStack gap="4">
           <Heading color="h1Text" align="center" size="64">
-          <img src="/img/icon.png" width="80"></img>  Quiz time!
+          <img src="/public/icon.png" width="80"></img>  Quiz time!
           </Heading>
 
           <Text align="center" size="18">
