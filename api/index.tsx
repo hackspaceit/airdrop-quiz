@@ -31,7 +31,7 @@ app.frame('/', async c => {
       <Box grow alignVertical="center" backgroundColor="custome" padding="32" border={BORDER_SIMPLE}>
         <VStack gap="4">
           <Heading color="h1Text" align="center" size="64">
-         <img src="/public/icon.png" width="80"></img>  DANA QUIZ!
+          🆓DANA QUIZ!
           </Heading>
 
           <Text align="center" size="18">
