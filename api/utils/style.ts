@@ -3,7 +3,7 @@ import { createSystem } from 'frog/ui'
 export const cardStyle = {
   display: 'flex',
   alignItems: 'center',
-  background: 'linear-gradient(to right, #4FF00FF, #D8BFD8)',
+  background: 'linear-gradient(to right, #1E90FF, #87CEFA)',
   backgroundSize: '100% 100%',
   flexDirection: 'column',
   flexWrap: 'nowrap',
@@ -25,7 +25,7 @@ export const textStyle = {
   whiteSpace: 'pre-wrap',
 }
 
-export const BORDER_SIMPLE = '1em solid rgb(255,102,174)'
+export const BORDER_SIMPLE = '1em solid rgb(108,162,255)'
 export const BORDER_FAIL = '1em solid rgb(255,24,24)'
 export const BORDER_SUCCESS = '1em solid rgb(55,255,24)'
 
@@ -33,7 +33,7 @@ export const { Box, Heading, Text, VStack, vars } = createSystem({
   colors: {
     white: 'white',
     black: 'black',
-    custome: '#FADEFF',
+    custome: '#1F80FF',
     h1Text: 'rgb(6,156,255)',
   },
   fonts: {
