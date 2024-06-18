@@ -34,17 +34,17 @@ export const { Box, Heading, Text, VStack, vars } = createSystem({
     white: 'white',
     black: 'black',
     custome: '#1F80FF',
-    h1Text: 'rgb(6,156,255)',
+    h1Text: 'rgb(255,255,255)',
   },
   fonts: {
     default: [
       {
-        name: 'Inter',
+        name: 'Sofia',
         source: 'google',
-        weight: 400,
+        weight: 400, 
       },
       {
-        name: 'Inter',
+        name: 'Sofia',
         source: 'google',
         weight: 600,
       },
