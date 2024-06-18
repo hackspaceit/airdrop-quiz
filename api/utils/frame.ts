@@ -35,7 +35,7 @@ export async function configureApp(app: Frog, c: FrameContext, browserLocationTy
   const appTitle = (env?.APP_TITLE as string) || 'DANA Quiz'
   const appOwnerFID = Number(env?.APP_OWNER_FID)
   const appPk = env?.APP_PK as `0x${string}`
-  const appAuthUrl = (env?.APP_AUTH_URL as string) || 'https://warpcast.com/eldarfaaiz/0xf61f39b3'
+  const appAuthUrl = (env?.APP_AUTH_URL as string) || 'https://warpcast.com/dappykit/0x9bcfba07'
   const appShareUrl = env?.APP_SHARE_URL as string
 
   if (!appTitle || !appOwnerFID || Number.isNaN(appOwnerFID) || !appPk || !appAuthUrl || !appShareUrl) {
