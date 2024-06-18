@@ -17,7 +17,7 @@ export const textStyle = {
   display: 'flex',
   color: 'white',
   fontSize: 50,
-  fontStyle: 'Fantasy',
+  fontStyle: 'normal',
   letterSpacing: '-0.025em',
   lineHeight: 1.4,
   marginTop: 30,
