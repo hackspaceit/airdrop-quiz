@@ -12,21 +12,56 @@ Required structure of the quiz.
 
 ```json
 {
-  "shortDescription": "Test your knowledge of computer science with this quiz.",
+  "shortDescription": "Jawab Quiz tentang sejarah Indonesia dan menangkan saldo DANA.",
   "questions": [
     {
-      "question": "What is RAM?",
-      "answers": ["Memory", "CPU", "Cache"],
+      "question": "Siapa Proklamator RI?",
+      "answers": ["Soekarno", "Hatta", "Sudirman"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is HTTP?",
-      "answers": ["Protocol", "Server", "Router"],
+      "question": "Tahun kemerdekaan RI?",
+      "answers": ["1945", "1950", "1940"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is CSS?",
-      "answers": ["Styles", "Script", "Markup"],
+      "question": "Kerajaan Hindu pertama?",
+      "answers": ["Kutai", "Majapahit", "Sriwijaya"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Ibukota Indonesia?",
+      "answers": ["Jakarta", "Bandung", "Surabaya"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Pahlawan dari Aceh?",
+      "answers": ["Cut Nyak", "Diponegoro", "Kartini"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "G30S terjadi tahun?",
+      "answers": ["1965", "1970", "1955"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Lambang negara RI?",
+      "answers": ["Garuda", "Merah Putih", "Bambu"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Pendiri Budi Utomo?",
+      "answers": ["Wahidin", "Soedirman", "Hatta"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Hari Sumpah Pemuda?",
+      "answers": ["28 Okt", "17 Aug", "1 Jun"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Penjajah pertama RI?",
+      "answers": ["Portugis", "Belanda", "Inggris"],
       "correctAnswerIndex": 0
     }
   ]

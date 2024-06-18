@@ -23,7 +23,7 @@ export const app = new Frog({
 app.frame('/', async c => {
   const { appTitle } = await configureApp(app, c, 'appAuthUrl')
 
-  const intents = [<Button action="/next"> Play Quiz</Button>]
+  const intents = [<Button action="/next"> 🎮 Play Quiz</Button>]
 
   return c.res({
     title: appTitle,
@@ -31,7 +31,7 @@ app.frame('/', async c => {
       <Box grow alignVertical="center" background-image="custome" padding="32" border={BORDER_SIMPLE}>
         <VStack gap="4">
           <Heading color="h1Text" align="center" size="64">
-          <img src="/public/icon.png" width="80"></img>  Quiz time!
+          🆓 DANA QUIZ!
           </Heading>
 
           <Text align="center" size="18">
@@ -108,7 +108,7 @@ app.frame('/result', async c => {
     intents.push(<Button action={userDelegatedAddress ? '/answers' : '/authorize'}>🙋 Answers</Button>)
   }
 
-  intents.push(<Button.Link href="https://hack.dappykit.org/?source=quiz-template">🔴 Win Tokens</Button.Link>)
+  intents.push(<Button.Link href="https://docs.google.com/forms/d/e/1FAIpQLScpbAHA-Cvh1jzHPzV6CTN3jhFu0NQBNjMCqG80RBevRRKINQ/viewform">💰 Claim Hadiah</Button.Link>)
 
   return c.res({
     title: appTitle,
@@ -155,7 +155,7 @@ app.frame('/authorize', async c => {
 
   if (userDelegatedAddress) {
     text = '✅ The application is authorized! You can view the answers.'
-    intents = [<Button action={'/answers'}>🙋 Answers</Button>]
+    intents = [<Button action={'/answers'}> ✔️Answers</Button>]
     try {
       await dappySaveData(dappyKit, appAddress, userMainAddress, 'I was here!')
     } catch (e) {
