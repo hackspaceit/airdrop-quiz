@@ -33,6 +33,7 @@ export const { Box, Heading, Text, VStack, vars } = createSystem({
   colors: {
     white: 'white',
     black: 'black',
+    custome: '#FADEFF',
     h1Text: 'rgb(6,156,255)',
   },
   fonts: {
