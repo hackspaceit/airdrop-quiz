@@ -39,12 +39,12 @@ export const { Box, Heading, Text, VStack, vars } = createSystem({
   fonts: {
     default: [
       {
-        name: 'Sofia',
+        name: 'Inter',
         source: 'google',
         weight: 400, 
       },
       {
-        name: 'Sofia',
+        name: 'Inter',
         source: 'google',
         weight: 600,
       },
