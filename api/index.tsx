@@ -77,7 +77,7 @@ app.frame('/next', async c => {
   return c.res({
     title: appTitle,
     image: (
-      <Box grow alignVertical="center" backgroundColor="white" padding="32" border={BORDER_SIMPLE}>
+      <Box grow alignVertical="center" backgroundColor="custome" padding="32" border={BORDER_SIMPLE}>
         <VStack gap="4">
           <Heading color="h1Text" align="center" size="64">
             {quiz.questions[questionIndex].question}
@@ -205,7 +205,7 @@ app.frame('/authorize', async c => {
   return c.res({
     title: appTitle,
     image: (
-      <Box grow alignVertical="center" backgroundColor="white" padding="32" border={BORDER_SIMPLE}>
+      <Box grow alignVertical="center" backgroundColor="custome" padding="32" border={BORDER_SIMPLE}>
         <VStack gap="4">
           <Heading color="h1Text" align="center" size="48">
             {errorText && 'Error'}
@@ -242,7 +242,7 @@ app.frame('/answers', async c => {
   return c.res({
     title: appTitle,
     image: (
-      <Box grow alignVertical="center" backgroundColor="white" padding="32" border={BORDER_SIMPLE}>
+      <Box grow alignVertical="center" backgroundColor="custome" padding="32" border={BORDER_SIMPLE}>
         <VStack gap="4">
           <Heading color="h1Text" align="center" size="64">
             {quiz.questions[questionIndex].question}
