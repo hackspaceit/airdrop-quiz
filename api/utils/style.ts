@@ -34,7 +34,8 @@ export const { Box, Heading, Text, VStack, vars } = createSystem({
     white: 'white',
     black: 'black',
     custome: '#1F80FF',
-    dana: '/public/dana.png',
+    dana:  '${NEXT_PUBLIC_URL}/img/dana.png',
+    
     h1Text: 'rgb(255,255,255)',
   },
   fonts: {
